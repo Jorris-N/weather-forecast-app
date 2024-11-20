@@ -10,8 +10,8 @@ const defaultStates = [
     name: "Dar es Salaam",
     country: "TZ",
     state: "Dar es Salaam",
-    lat: -6.792354,
-    lon: 39.208328,
+    lat: -6.8235,
+    lon: 39.2695,
   },
   {
     name: "Mombasa",

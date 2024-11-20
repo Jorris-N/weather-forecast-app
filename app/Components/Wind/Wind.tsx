@@ -15,6 +15,8 @@ function Wind() {
     return <Skeleton className="h-[12rem] w-full" />;
   }
 
+  const windSpeedInKmh = windSpeed * 3.6;
+
   return (
     <div
       className="pt-6 pb-5 px-4 h-[12rem] border rounded-lg flex 
@@ -46,7 +48,7 @@ function Wind() {
           className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] text-xs
             dark:text-white font-medium"
         >
-          {Math.round(windSpeed)} m/s
+          {Math.round(windSpeedInKmh)} km/h
         </p>
       </div>
     </div>
